@@ -27,7 +27,8 @@ align-items: center;
     
 }
 .main #text, #img{
-    float:left;
+    float: left;
+
 }
 .main img {
     width: 80%;
@@ -36,6 +37,7 @@ align-items: center;
     background-size: cover;
    
 }
+
 #text p{
     padding-top: 20px;
 padding-bottom: 20px;
