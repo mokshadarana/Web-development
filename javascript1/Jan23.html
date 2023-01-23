@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getUsername(){
+            let username=document.getElementById("myName").value
+            console.log(username);
+            //document.getElementById("para1").innerHTML= username; //This replaces the initial value
+            document.getElementById("para1").append(username); 
+        }
+
+        function getAge(){
+            let age=document.getElementById("myAge").value;
+            if(age >= 18){
+            document.getElementById("para").append("You can vote as you are "+Age);
+            }else{
+            document.getElementById("para").append("You cannot vote as your are "+Age);
+            }
+        }
+    </script>
+</head>
+<body>
+    <label>Username</label>
+    <input type="text" id="myName">
+    <button onclick="getUsername()">Submit</button>
+    <p id="para1">Hello, </p>
+
+<label>age</label>
+<input type="number" id="myAge">
+<button onclick="getAge()">Submit</button>
+<p id="para">Age is </p>
+
+
+
+
+    
+</body>
+</html>
