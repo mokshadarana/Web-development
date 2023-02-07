@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML">
+    <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
+
+    <meta name="description" content="This is mokshada's portfolio where general information about her are present.">
+    <meta name="robots" contents="max-snippet:-1, max-image-preview;large">
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="instagram"/>
+    <meta property="og:title" content="MokshadaRana "/>
+    <meta property="og:description" content="Use it for chatting with friends and sharing moments of life"/>
+    <meta property="og:url" content="https://www.instagram.com/mokshadarana/"/>
+    <meta property="og:image" content="https://www.instagram.com/p/CirUH5vs4i-uK48bIi--65Sg-87bKlzfiRvLg80/">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="website.css">
 </head>
 <body>
@@ -15,8 +29,8 @@
                 <li><a href="#topbar">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#">HOBBIES</a></li>
-                <li><a href="#contact-me">CONTACT</a></li>
+                <li><a href="#hobbies">HOBBIES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
         <div class="detail">
@@ -34,7 +48,7 @@
             <div class="image2">
             <img src="about.jpg" alt="Image of Mokshada" class="img2"></div>
             <div class="about-text">
-                <h2>About Me</h2>
+                <h2>About <span>Me</span></h2>
                 <h3>Computer Science Student in <span>Herald College Kathmandu</span></h3>
                 <p>Hello, My name is Mokshada Rana and I am first year BIT student here at Herald College Kathmandu. I am a learner and a believer who believes in living in the moment. I think life to too short to worry about things and spend days being sad so even if there are thousand of things going on in my head you will still see me smiling and making others laugh. </p>
 
@@ -43,7 +57,7 @@
         </div>
     </div>
 
-<!----Education sector starts---->
+<!----Education section starts---->
     <div id="education">
         <div class="title">
             <h4>My <span>Education</span></h4>
@@ -85,22 +99,74 @@
         </div>
     </div>
 
-<!----Contact-me---->
-<div id="contact-me">
-    <p>Contact Details</p>
-    <a class="button-two" href="#">Hire Me</a>
+
+<!-----Hobbies start----->
+<div id="hobbies">
+    <div class="title">
+        <h4>My <span>HOBBIES</span></h4>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1089087/pexels-photo-1089087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image of Basketball">
+            <h5>Basketball</h5>
+            <div class="pra">
+                <p>I started playing basketball since I was in grade 5. Ever since then I really enjoy playing it with my friends. I started liking to play basketball because of my friends.</p>
+
+                <p style="text-align: center;"></p>
+ 
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.pexels.com/photos/6121164/pexels-photo-6121164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image of Photography">
+            <h5>Photography</h5>
+            <div class="pra">
+                <p>Photography is one of my favourite hobbie and I love taking pictures as well as being photographed. I love to capture the moments in picture to cherish the memories for life. </p>
+
+                <p style="text-align: center;"></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1060791/pexels-photo-1060791.jpeg" alt="Image of  Travelling">
+            <h5>Travelling</h5>
+            <div class="pra">
+                <p>Travelling is my methof of calming myself when dealing with anything unwanted in life. I love short as well as long trips alone or with anyone. </p>
+
+                <p style="text-align: center;"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----contact starts-->
+<div id="contact">
+    <div class="contact-info">
+        <div><i class="fa-light fa-location-dot"></i>Baluwatar, Kathmandu, Nepal</div>
+        <div><i class="fa-light fa-envelope"></i>ranamokshada@gmail.com</div>
+        <div><i class="fa-light fa-phone"></i>+977 9808156252</div>
+    </div>
+    <div class="contact-form">
+        <h2>Contact <span>Us</span></h2>
+        <form class="contact" action="" method="post">
+            <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+            <input type="text" name="name" class="text-box" placeholder="Your E-mail" required>
+            <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+            <input type="submit" name="submit" class="send-btn" value="send">
+        </form>
+    </div>
 </div>
 
 <!----footer start---->
-<footer>
+<div class='footer'>
 <p>Mokshada Rana</p>
-
 <div class="social">
-    <a href="#"><i class="fab fa-facebook-f"></i> </a>
-    <a href="#"><i class="fab fa-instagram"></i> </a>
-    <a href="#"><i class="fa-brands fa-linkedin"></i>  </a>
+    <a href="https://www.instagram.com/mokshadarana/"><i class="fab fa-instagram"></i> </a>
+    <a href="https://www.linkedin.com/in/mokshada-rana-61691725a/"><i class="fa-brands fa-linkedin"></i> </a>
+    <a href="https://github.com/mokshadarana"><i class="fa-brands fa-github"></i> </a>
 </div>
 <p class="end">CopyRight by Mokshada Rana</p>
-</footer>
+</div>
 </body>
 </html>
